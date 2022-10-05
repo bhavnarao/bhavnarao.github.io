@@ -1,0 +1,94 @@
+#contact {
+    padding: 4%;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#contact > h2 {
+    font-weight: 900;
+    font-size: 5em;
+    width: 30%;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    /* padding-left: 2%; */
+}
+
+.subsubheading {
+    font-family: "Fraunces";
+    font-size: 2em;
+    margin-bottom: 4%;
+    /* margin-bottom: 8%; */
+}
+
+.socials > a {
+    display: inline-block;
+    text-align: left;
+    margin: 0 15px 0 5px;
+    padding-left: 4%;
+}
+
+#mailing {
+    font-family: "Fraunces";
+    width: 50%;
+    /* float: right; */
+    /* margin-top: -15%; */
+    margin-bottom: 100px;
+}
+
+.left-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-right: 100px;
+    width: 35%;
+}
+
+.right-contact {
+    width: 35%;
+    margin-top: 10%;
+    margin-left: 100px;
+}
+
+input, textarea {
+    font-family: "Fraunces";
+    padding: 2%;
+    font-size: 1.5em;
+    width: 80%;
+    border-bottom: 1px solid #000;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 2%;
+}
+
+.submit {
+    font-family: "Fraunces";
+    background-color: #ED8000;
+    color: #FFF;
+    border: none;
+    padding: 2%;
+    margin: 2%;
+    font-size: 1.2em;
+    border-radius: 5px;
+    width: 30%;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #fd9219;
+}
+
+.divider-vertical {
+    height: 80vh;
+    width: 2px;
+    opacity: 20%;
+    background-color: dimgray;
+    margin-top: auto;
+    margin-bottom: auto;
+}
