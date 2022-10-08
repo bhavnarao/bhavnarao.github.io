@@ -13,13 +13,12 @@
 </head>
 <body>
     <div id="navbar">
-        <a href="#"><img src="./assets/instagram.svg" alt="instagram logo" class="instagram-btn"></a>
-        <a href="#"><img src="./assets/behance.svg" alt="behance logo" class="behance-btn"></a>
-        <a href="#"><img src="./assets/linkedin.svg" alt="linkedin logo" class="linkedin-btn"></a>
+        <!-- <a href="#"><img src="./assets/instagram.svg" alt="instagram logo" class="instagram-btn"></a> -->
+        <a href="https://www.behance.net/bhavnakarupar" target="_blank"><img src="./assets/behance.svg" alt="behance logo" class="behance-btn"></a>
+        <a href="https://www.linkedin.com/in/bhavna-karuparthi" target="_blank"><img src="./assets/linkedin.svg" alt="linkedin logo" class="linkedin-btn"></a>
 
         <div class="navbar_right">
-            <a href="#">About</a>
-            <a href="#">Resume</a>
+            <a href="static/pdf/resume.pdf" target="_blank">Resume</a>
         </div>
 	</div>
 
@@ -72,22 +71,24 @@
             </h2>
             <h3 class="subsubheading">Find me here...</h3>
             <div class="socials">
-                <a href="#"><img src="./assets/instagram.svg" alt="instagram logo" class="instagram-btn"></a>
-                <a href="#"><img src="./assets/behance.svg" alt="behance logo" class="behance-btn"></a>
-                <a href="#"><img src="./assets/linkedin.svg" alt="linkedin logo" class="linkedin-btn"></a>
+                <!-- <a href="#"><img src="./assets/instagram.svg" alt="instagram logo" class="instagram-btn"></a> -->
+                <a href="https://www.behance.net/bhavnakarupar" target="_blank"><img src="./assets/behance.svg" alt="behance logo" class="behance-btn"></a>
+                <a href="https://www.linkedin.com/in/bhavna-karuparthi" target="_blank"><img src="./assets/linkedin.svg" alt="linkedin logo" class="linkedin-btn"></a>
             </div>
         </div>
 
         <div class="divider-vertical"></div>
 
-        <div id="mailing" class="right-contact">
+        <form action="https://formsubmit.co/bkarupa1@binghamton.edu" method="POST" id="mailing" class="right-contact">
             <h3 class="subsubheading">...Or send a message!</h3>
-            <input type="text" placeholder="Name" /><br>
-            <input type="text" placeholder="Email" /><br>
+            <input type="hidden" name="_next" value="https://bhavnarao.github.io/">
+            <input type="hidden" name="_subject" value="New Email from your Portfolio">
+            <input type="text" name="name" placeholder="Name" required><br>
+            <input type="email" name="email" placeholder="Email" required><br>
             <textarea type="textarea" rows="6" placeholder="Message"></textarea><br>
 
-            <button class="submit">Send</button>
-        </div>
+            <button type="submit" class="submit">Send</button>
+        </form>
     </div>
 
     <main class="modal"></main>
