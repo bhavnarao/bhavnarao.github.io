@@ -50,6 +50,11 @@ body {
     font-weight: 600;
 }
 
+.navbar-item:hover {
+  color: #ED8000;
+  box-shadow: rgba(0, 0, 0, 0.1);
+}
+
 .instagram-btn {
     width: 49px;
     height: 49px;
@@ -164,6 +169,7 @@ button[data-modal][aria-controls]:focus,
   -webkit-filter: contrast(80%);
   filter: contrast(80%);
   border-radius: 20px;
+  border: white solid 2px;
   /* box-shadow: 0 0 0 4px rgba(255, 0, 0, .6); */
   outline: 0 solid;
 }
